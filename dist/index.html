@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IINTOO</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <div class="bg">
+      <a class="bg__logo" href="#">
+        <svg>
+          <use xlink:href="images/sprite.svg#logo"></use>
+        </svg>
+      </a>
+      <img src="images/bg.jpg" alt="Background image-logo">
+    </div>
+
+    <div class="form">
+      <h1 class="form__title">Get iintoo it today</h1>
+      <p class="form__subtitle">
+        There is no charge or obligation upn registration.
+      </p>
+
+      <div class="form__social">
+        <a class="form__link form__link--facebook" href="#">
+          <svg>
+            <use xlink:href="images/sprite.svg#facebook"></use>
+          </svg>
+          <span>Register with Facebook</span>
+        </a>
+
+        <a class="form__link form__link--linkedin" href="#">
+          <svg>
+            <use xlink:href="images/sprite.svg#linkedin"></use>
+          </svg>
+          <span>Register with Linkedin</span>
+        </a>
+      </div>
+
+      <div class="form__divider">
+        <span>or</span>
+      </div>
+
+      <form action="#">
+        <div class="form__input">
+          <label class="form__label">
+            <input type="email" name="mail" required>
+            <span class="form__placehplder">Email</span>
+          </label>
+
+          <label class="form__label">
+            <input type="tel" name="phone" required>
+            <span class="form__placehplder">Phone</span>
+          </label>
+        </div>
+
+        <h2 class="form__question">What type of investor are you?</h2>
+        <p class="form__select">
+          Select the type of investor you are below.
+        </p>
+
+        <div class="form__radio">
+          <label class="form__label-rad">
+            <input type="radio" name="strategy">
+            <span class="form__fake"></span>
+            <span>Individual</span>
+          </label>
+          <label class="form__label-rad">
+            <input type="radio" name="strategy">
+            <span class="form__fake"></span>
+            <span>Business</span>
+          </label>
+          <label class="form__label-rad">
+            <input type="radio" name="strategy">
+            <span class="form__fake"></span>
+            <span>IRA</span>
+          </label>
+          <label class="form__label-rad">
+            <input type="radio" name="strategy">
+            <span class="form__fake"></span>
+            <span>Trust</span>
+          </label>
+        </div>
+
+        <p class="form__hint">
+          I am a natural person investing on my own behalf as a sole owner, joint tenant, or tenant in common.
+        </p>
+
+        <label class="form__label-check">
+          <input type="checkbox" name="agree" required>
+          <p>
+            I agree to the terms and receiving notifications from iintoo
+            <a class="form__terms" href="#">View full terms</a>
+          </p>
+        </label>
+
+        <button class="form__btn" type="submit">Create Account</button>
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>
