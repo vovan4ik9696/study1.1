@@ -1,0 +1,26 @@
+body {
+  font-family: Barlow, sans-serif;
+}
+
+.wrapper {
+  max-width: 1600px;
+  padding: 0 80px;
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+
+  background-color: #EFF6FF;
+
+  overflow: hidden;
+
+  @media (max-width: $lg) {
+    flex-direction: column;
+
+    overflow: auto;
+  }
+
+  @media (max-width: $xs) {
+    padding: 0 20px;
+  }
+}
+
